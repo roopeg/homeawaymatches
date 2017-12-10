@@ -1,1 +1,19 @@
+.taulu {
+  border: 1px solid black;
+  margin: 15px;
+  height: 200px;
+}
+
+.container {
+  border: 1px dashed black;
+  display: inline-block;
+
+}
+.containertainer {
+  text-align: center;
+}
+
+body {
+  font-family: Arial;
+}
 
