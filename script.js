@@ -15,4 +15,16 @@ $("#submit").click(function(){
 function howManyHomeGames() { // checks the number of teams in both confs
   var A = makeArrayA().length;
   var B = makeArrayB().length;
+  return A + B;
 }
+
+function evenOrNot(){
+  var numberOfTeams = howManyHomeGames(); // howManyHomeGames gives numeric value
+  return numberOfTeams % 2 == 0
+}
+
+$("#evenTest").click(function evenTest(){
+  $('#output').text(evenOrNot());
+});
+
+var pairs = [];
