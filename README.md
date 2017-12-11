@@ -16,9 +16,10 @@ Steps to take:
 - (DONE) Create a textarea element for both conferences.
 - (DONE) Make a JS Array for both conferences.
 - (DONE) Check the amount of teams for both conferences.
-- Check if number of games will be even or not.
-- Create function which chooses a team randomly from both conferences.
-- Create a object, which stores and pairs the chosen teams (lets say TeamA1 and TeamB2), if they pass the tests:
+- (DONE) Check if number of games will be even or not.
+- Create an array for pairs of teams.
+- Create function which chooses a team randomly from both conferences and places them to array.
+- Store and pair the chosen teams (lets say TeamA1 and TeamB2), if they pass the tests:
     - TeamA1+TeamB2 should not exist.
     - TeamA1+TeamB? Has <= than max number of games/home games.
 - Loop the function described above, until all teams from conf A have a max number of home games.
