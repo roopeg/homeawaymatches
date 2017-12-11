@@ -28,3 +28,16 @@ $("#evenTest").click(function evenTest(){
 });
 
 var pairs = [];
+
+function randomlySelectTwo() {
+  var arrayA = makeArrayA();
+  var arrayB = makeArrayB();
+  return  [
+      arrayA[Math.floor(Math.random() * arrayA.length)],
+      arrayB[Math.floor(Math.random() * arrayB.length)]
+    ];
+}
+
+$("#randomPicksTest").click(function randomPicksTest(){
+  $('#output').text(randomlySelectTwo());
+});
