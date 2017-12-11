@@ -7,8 +7,9 @@ Also works as my FIRST practise of using Github! This is going to get interestin
 Basic rules for the project:
 
 - We have 2 conferences of varying number of teams.
-- Every team plays ONCE against the teams of the other conference.
-- Every team should have even amount of home and away matches.
+- Maximum difference in the number of teams in a conference is one.
+- Every team plays once against the teams of the other conference.
+- Every team should have even amount of home and away matches, if possible.
 - If amount of matches is uneven, randomly select the teams who get less games at home.
 
 Steps to take:
