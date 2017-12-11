@@ -17,3 +17,6 @@ body {
   font-family: Arial;
 }
 
+#output {
+  font-size: 50px;
+}
